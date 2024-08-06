@@ -7,7 +7,6 @@ savedir = "/home/rugantio/Downloads/"
 df = pd.read_csv("./ris/results.csv")
 df.qa_t = df.bqm_t + df.qa_t
 df.sa_t = df.bqm_t + df.sa_t
-# df.to_csv('/home/rugantio/ris/results_new.csv', index=False)
 
 palette = ['#000000','#009900','#0000ff','#ff0000','#6699ff','#ff9966']
 
