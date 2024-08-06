@@ -87,7 +87,6 @@ def get_bqm(X,
             rate = 0.1):
 
     start = time()
-    
     if p_type == 'fixed':
         p = np.array([1/3,2/3])
         P = np.kron(np.eye(X.shape[1]), p.T)
